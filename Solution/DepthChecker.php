@@ -7,6 +7,7 @@ class DepthChecker
         if (is_object($input)) {
             $input = (array) $input;
         }
+        if (!is_array($input)) return ;
 
         foreach ($input as $key => $value) {
             $keys[] = [
