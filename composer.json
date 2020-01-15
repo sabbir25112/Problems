@@ -6,7 +6,11 @@
     },
     "autoload": {
         "classmap": [
-            "Solution/DepthChecker.php"
+            "Solution/Node.php"
+        ],
+        "files": [
+            "Solution/lca.php",
+            "Solution/depth_checker.php"
         ]
     },
     "authors": [

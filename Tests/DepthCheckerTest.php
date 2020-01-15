@@ -12,8 +12,7 @@ class DepthCheckerTest extends TestCase
     public function testDepth($data, $response)
     {
         $arr = [];
-        $depthChecker = new DepthChecker();
-        $depthChecker->calculate_depth($arr, $data);
+        calculate_depth($arr, $data);
         $this->assertEquals($arr, $response);
     }
 
